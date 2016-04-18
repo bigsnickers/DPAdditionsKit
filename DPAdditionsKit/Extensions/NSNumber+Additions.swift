@@ -20,7 +20,7 @@ extension NSNumber {
      
      - returns: NSNumber
      */
-    convenience init(cgFloat value: CGFloat) {
+    public convenience init(cgFloat value: CGFloat) {
         
         if UIDevice.currentDevice().is64Bit {
             
@@ -33,7 +33,7 @@ extension NSNumber {
     }
     
     /// Returns CGFloat value.
-    var cgFloatValue: CGFloat {
+    public var cgFloatValue: CGFloat {
         
         if UIDevice.currentDevice().is64Bit {
             

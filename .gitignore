@@ -64,3 +64,4 @@ fastlane/screenshots
 UserInterfaceState.xcuserstate
 .DS_Store
 DPAdditionsKit.xcodeproj/project.xcworkspace/xcuserdata/big_snickers.xcuserdatad/UserInterfaceState.xcuserstate
+DPAdditionsKit.podspec
