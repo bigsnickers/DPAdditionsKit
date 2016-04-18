@@ -10,6 +10,8 @@
 		791ACE951CC13B0400F4D3F6 /* NSObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791ACE931CC13B0400F4D3F6 /* NSObject+Additions.swift */; };
 		791ACE961CC13B0400F4D3F6 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791ACE941CC13B0400F4D3F6 /* UIView+Additions.swift */; };
 		7998CE731CC13A11008B8048 /* DPAdditionsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7998CE721CC13A11008B8048 /* DPAdditionsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79CA19501CC51B2C005817C3 /* NSNumber+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA194F1CC51B2C005817C3 /* NSNumber+Additions.swift */; };
+		79CA19521CC51BAC005817C3 /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA19511CC51BAC005817C3 /* UIDevice+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		7998CE6F1CC13A11008B8048 /* DPAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7998CE721CC13A11008B8048 /* DPAdditionsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAdditionsKit.h; sourceTree = "<group>"; };
 		7998CE741CC13A11008B8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CA194F1CC51B2C005817C3 /* NSNumber+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+Additions.swift"; sourceTree = "<group>"; };
+		79CA19511CC51BAC005817C3 /* UIDevice+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +38,9 @@
 		791ACE921CC13ABC00F4D3F6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				79CA194F1CC51B2C005817C3 /* NSNumber+Additions.swift */,
 				791ACE931CC13B0400F4D3F6 /* NSObject+Additions.swift */,
+				79CA19511CC51BAC005817C3 /* UIDevice+Additions.swift */,
 				791ACE941CC13B0400F4D3F6 /* UIView+Additions.swift */,
 			);
 			path = Extensions;
@@ -146,6 +152,8 @@
 			files = (
 				791ACE961CC13B0400F4D3F6 /* UIView+Additions.swift in Sources */,
 				791ACE951CC13B0400F4D3F6 /* NSObject+Additions.swift in Sources */,
+				79CA19501CC51B2C005817C3 /* NSNumber+Additions.swift in Sources */,
+				79CA19521CC51BAC005817C3 /* UIDevice+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
