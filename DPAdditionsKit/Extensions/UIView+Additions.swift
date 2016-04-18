@@ -10,6 +10,9 @@ import UIKit
 
 extension UIView {
     
+    /*!
+     Removes all subviews.
+     */
     public func removeAllSubviews() {
         
         while subviews.count > 0 {
@@ -18,6 +21,9 @@ extension UIView {
         }
     }
     
+    /*!
+     Sticks the receiver to its superview.
+     */
     public func stickToSuperview() {
         
         guard superview != nil else { return }
