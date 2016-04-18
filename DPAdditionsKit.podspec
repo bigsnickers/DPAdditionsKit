@@ -4,8 +4,7 @@ s.platform = :ios
 s.ios.deployment_target = '8.0'
 s.name = "DPAdditionsKit"
 s.summary = "Useful extensions for iOS frameworks."
-s.requires_arc = true
-s.version = "0.1.0"
+s.version = "0.1.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Dennis Pashkov" => "dennis.pashkov@icloud.com" }
 s.homepage = "https://github.com/bigsnickers/DPAdditionsKit"
